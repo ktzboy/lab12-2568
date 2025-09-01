@@ -1,4 +1,5 @@
 import { NavLink as RouterNavLink } from "react-router-dom";
+import picture from "../../public/picturegu.png"
 import {
   NavLink,
   Stack,
@@ -47,7 +48,7 @@ export default function Sidebar( { userName, type }: SidebarComponent) {
           <Avatar
             size="lg"
             radius="sm"
-            src="../../public/picturegu.png"
+            src={picture}
           />
        </Indicator>
         <Text>User: {userName} : {type}</Text>
